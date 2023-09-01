@@ -1,0 +1,140 @@
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #E0D3CD; 
+ text-align: center; 
+}
+
+main{
+  background-color: #F9EFE6;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.aboutme{
+  display: flex;
+  
+}
+
+.whole1{
+  display: flex;
+  justify-content: center;
+}
+
+.whole2{
+  display: flex;
+  justify-content: center;
+}
+
+.whole3{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+/* STYLE TEXT */
+
+h1 /*Home page*/{
+  color: #735d78;
+  font-family: serif;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 50px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h2 /*Portfolio page*/{
+  color: #4C3D36
+  text-align: center;
+  letter-spacing: 2px
+  padding: 1em;
+}
+
+h3 /*Part of personal description*/ {
+  color: #735d78;
+}
+
+h4 /*Portfolio mini headers for images*/{
+  color: #4C3D36
+  text-align: center;
+  font-weight: bold;
+}
+
+.headersection{
+  display: flex;
+  justify-content: center;
+}
+
+.pandapic{
+  max-height: 150px;
+  max-width: 150px;
+  padding-top: 1em;
+  padding-left: 2.5em;
+}
+
+.portfolioheadersection{
+  display: flex;
+  justify-content: center;
+}
+
+
+p:not(.mydescription){
+  color: #4C3D36
+  text-align: center;
+}
+
+
+.personaldescription {
+  float: left;
+  width: 150%;
+  font-size: 22px;
+  padding-top: 3em;
+  padding-left: 6.5em;
+  color: #4C3D36
+}
+
+/* STYLE IMAGES */
+img:not(.Personalpic, .pandapic){
+  border-radius: 8px;
+  max-width: 240px;
+  max-height: 320px;
+}
+
+.Personalpic{
+  width: 50%;
+  float: right;
+  margin-right: 90px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+
+/* STYLE NAV BAR */
+
+
+ul{
+  list-style-type: none;
+  background-color: #735d78;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li{
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-family: "courier", monospace;
+  font-style: 1.3em;
+  padding: 1em;
+}
+
+li a:hover{
+  background-color: #947C9A;
+}
